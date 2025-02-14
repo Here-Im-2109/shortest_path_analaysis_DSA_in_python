@@ -11,16 +11,16 @@ This repository contains a Python implementation of a shortest pathfinding algor
 
 ## Technologies Used 🛠️
 - Python 🐍
-- Pathfinding Algorithms (e.g., A*, Dijkstra, BFS, DFS)
-- NumPy (for calculations)
-- Matplotlib (for visualization)
+- pygame
+- math
+- Pathfinding Algorithms
+- PriorityQueue
 
 ## Getting Started 🚀
 ### Installation
 1. Clone this repository:
    ```bash
    git clone https://github.com/your_username/shortest-pathfinding.git
-   cd shortest-pathfinding
    ```
 2. Install dependencies:
    ```bash
@@ -30,9 +30,9 @@ This repository contains a Python implementation of a shortest pathfinding algor
 ### Usage
 Run the main script to visualize the pathfinding process:
 ```bash
-python main.py
+find_shortest_path.py
 ```
-Modify `config.py` to change the grid size, obstacles, or algorithm settings.
+Modify `updated_find_shortest_path.py` to change the grid size, obstacles, or algorithm settings.
 
 ## Example Visualization 🎨
 The algorithm finds the shortest path while avoiding obstacles and displays the result graphically.
@@ -45,9 +45,5 @@ The algorithm finds the shortest path while avoiding obstacles and displays the 
 ## Contributions 🤝
 Contributions are welcome! Feel free to submit pull requests or open issues.
 
-## License 📜
-This project is licensed under the MIT License.
-
 ---
 Happy Coding! 🎯
-
